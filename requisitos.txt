@@ -1,0 +1,16 @@
+Requisitos Funcionais:
+
+RF01 - O sistema deve possuir interface que comunique aos usuários como o sistema deve se comportar.  
+RF02 - O sistema deve permitir uploads de arquivos/pasta.
+RF03 - O sistema deve abrir o arquivo, ler o que está contido e realiazar processamento que permita confirmar que o arquivo é malicioso.
+RF04 - O sistema deve gerar como resultado de processamento do arquivo um relatório.
+RF05 - O sistema deve retornar ao usuário o resultado em formato de texto.
+RF05 - O sistema deve conter avisos claros de "erros de uploads", "processamento concluido", "processamento em andamento"
+
+Requisitos Não Funcionais:
+
+RNF01 - O projeto será desenvolvido em Java,Spring Web, Cloud OpenFeign, JPA, Async, JUnit, MySQL e chamadas a API osv.dev e LLM ChatGPT.
+RNF02 - O sistema deverá armazenar o histórico de relatórios de arquivos analizados.
+RNF03 - O sistema deve utilizar processamento assíncrono do Spring Async para gerar relatório.
+RNF04 - O sistema deve conter testes de unidade para garantir que os uploads sejam apenas de arquivos de texto.
+RNF04 - O sitema deve analisar os arquivos recurssivamente.
